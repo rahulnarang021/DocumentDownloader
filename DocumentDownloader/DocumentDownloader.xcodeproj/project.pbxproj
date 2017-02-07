@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C98559B1E49B21500704589 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98559A1E49B21500704589 /* String+MD5.swift */; };
+		9C9855A41E49B4AE00704589 /* DocumentManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855A31E49B4AE00704589 /* DocumentManagerTests.swift */; };
+		9C9855AD1E49B6F100704589 /* TestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855AC1E49B6F100704589 /* TestConstants.swift */; };
+		9C9855AF1E49C6D700704589 /* FileClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855AE1E49C6D700704589 /* FileClientTest.swift */; };
+		9C9855B11E49C70400704589 /* CacheManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855B01E49C70400704589 /* CacheManagerTest.swift */; };
+		9C9855B51E49CA8F00704589 /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855B41E49CA8F00704589 /* UserTest.swift */; };
+		9C9855B71E49CE1B00704589 /* StringMd5Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9855B61E49CE1B00704589 /* StringMd5Test.swift */; };
+		9C9855BB1E49D4B800704589 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C9855BA1E49D4B800704589 /* testImage.jpg */; };
+		9CAEC1301E45A7B3002C8248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAEC12F1E45A7B3002C8248 /* AppDelegate.swift */; };
+		9CAEC1351E45A7B3002C8248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAEC1331E45A7B3002C8248 /* Main.storyboard */; };
+		9CAEC1381E45A7B3002C8248 /* DocumentDownloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CAEC1361E45A7B3002C8248 /* DocumentDownloader.xcdatamodeld */; };
+		9CAEC13A1E45A7B3002C8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CAEC1391E45A7B3002C8248 /* Assets.xcassets */; };
+		9CAEC13D1E45A7B3002C8248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAEC13B1E45A7B3002C8248 /* LaunchScreen.storyboard */; };
+		9CE5DF721E474189001A7E4E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF6A1E474189001A7E4E /* CacheManager.swift */; };
+		9CE5DF731E474189001A7E4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF6B1E474189001A7E4E /* Constants.swift */; };
+		9CE5DF741E474189001A7E4E /* DocumentDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF6C1E474189001A7E4E /* DocumentDownload.swift */; };
+		9CE5DF751E474189001A7E4E /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF6D1E474189001A7E4E /* DownloadManager.swift */; };
+		9CE5DF771E474189001A7E4E /* FileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF6F1E474189001A7E4E /* FileClient.swift */; };
+		9CE5DF781E474189001A7E4E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF711E474189001A7E4E /* NetworkingManager.swift */; };
+		9CE5DF7E1E4741E3001A7E4E /* UserCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF7B1E4741E3001A7E4E /* UserCustomCell.swift */; };
+		9CE5DF7F1E4741E3001A7E4E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF7C1E4741E3001A7E4E /* ListViewController.swift */; };
+		9CE5DF811E4741F7001A7E4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF801E4741F7001A7E4E /* User.swift */; };
+		9CE5DF8A1E47B0FA001A7E4E /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF891E47B0FA001A7E4E /* UIImageView+Cache.swift */; };
+		9CE5DF8C1E47B1CB001A7E4E /* UIWebView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE5DF8B1E47B1CB001A7E4E /* UIWebView+Cache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9855A61E49B4AE00704589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CAEC1241E45A7B3002C8248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CAEC12B1E45A7B3002C8248;
+			remoteInfo = DocumentDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C98559A1E49B21500704589 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		9C98559C1E49B30300704589 /* DocumentDownloader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DocumentDownloader-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C9855A11E49B4AE00704589 /* DocumentDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9855A31E49B4AE00704589 /* DocumentManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManagerTests.swift; sourceTree = "<group>"; };
+		9C9855A51E49B4AE00704589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9855AC1E49B6F100704589 /* TestConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConstants.swift; sourceTree = "<group>"; };
+		9C9855AE1E49C6D700704589 /* FileClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileClientTest.swift; sourceTree = "<group>"; };
+		9C9855B01E49C70400704589 /* CacheManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManagerTest.swift; sourceTree = "<group>"; };
+		9C9855B41E49CA8F00704589 /* UserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTest.swift; sourceTree = "<group>"; };
+		9C9855B61E49CE1B00704589 /* StringMd5Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMd5Test.swift; sourceTree = "<group>"; };
+		9C9855BA1E49D4B800704589 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		9CAEC12C1E45A7B3002C8248 /* DocumentDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CAEC12F1E45A7B3002C8248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CAEC1341E45A7B3002C8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CAEC1371E45A7B3002C8248 /* DocumentDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocumentDownloader.xcdatamodel; sourceTree = "<group>"; };
+		9CAEC1391E45A7B3002C8248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CAEC13C1E45A7B3002C8248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CAEC13E1E45A7B3002C8248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE5DF6A1E474189001A7E4E /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		9CE5DF6B1E474189001A7E4E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9CE5DF6C1E474189001A7E4E /* DocumentDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentDownload.swift; sourceTree = "<group>"; };
+		9CE5DF6D1E474189001A7E4E /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		9CE5DF6F1E474189001A7E4E /* FileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileClient.swift; sourceTree = "<group>"; };
+		9CE5DF711E474189001A7E4E /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		9CE5DF7B1E4741E3001A7E4E /* UserCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCustomCell.swift; sourceTree = "<group>"; };
+		9CE5DF7C1E4741E3001A7E4E /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9CE5DF801E4741F7001A7E4E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9CE5DF891E47B0FA001A7E4E /* UIImageView+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		9CE5DF8B1E47B1CB001A7E4E /* UIWebView+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+Cache.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C98559E1E49B4AE00704589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAEC1291E45A7B3002C8248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9855A21E49B4AE00704589 /* DocumentDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9855A31E49B4AE00704589 /* DocumentManagerTests.swift */,
+				9C9855AE1E49C6D700704589 /* FileClientTest.swift */,
+				9C9855A51E49B4AE00704589 /* Info.plist */,
+				9C9855AC1E49B6F100704589 /* TestConstants.swift */,
+				9C9855B01E49C70400704589 /* CacheManagerTest.swift */,
+				9C9855B41E49CA8F00704589 /* UserTest.swift */,
+				9C9855B61E49CE1B00704589 /* StringMd5Test.swift */,
+			);
+			path = DocumentDownloaderTests;
+			sourceTree = "<group>";
+		};
+		9C9855B91E49D4B800704589 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C9855BA1E49D4B800704589 /* testImage.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CAEC1231E45A7B3002C8248 = {
+			isa = PBXGroup;
+			children = (
+				9CAEC12E1E45A7B3002C8248 /* DocumentDownloader */,
+				9C9855A21E49B4AE00704589 /* DocumentDownloaderTests */,
+				9CAEC12D1E45A7B3002C8248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CAEC12D1E45A7B3002C8248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CAEC12C1E45A7B3002C8248 /* DocumentDownloader.app */,
+				9C9855A11E49B4AE00704589 /* DocumentDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CAEC12E1E45A7B3002C8248 /* DocumentDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				9C9855B91E49D4B800704589 /* Resources */,
+				9CE5DF791E4741E3001A7E4E /* ListScreen */,
+				9CE5DF691E474189001A7E4E /* DocumentDownloadLibrary */,
+				9CE5DF701E474189001A7E4E /* Networking */,
+				9CAEC12F1E45A7B3002C8248 /* AppDelegate.swift */,
+				9CAEC1331E45A7B3002C8248 /* Main.storyboard */,
+				9CAEC1391E45A7B3002C8248 /* Assets.xcassets */,
+				9CAEC13B1E45A7B3002C8248 /* LaunchScreen.storyboard */,
+				9CAEC13E1E45A7B3002C8248 /* Info.plist */,
+				9CAEC1361E45A7B3002C8248 /* DocumentDownloader.xcdatamodeld */,
+				9C98559C1E49B30300704589 /* DocumentDownloader-Bridging-Header.h */,
+			);
+			path = DocumentDownloader;
+			sourceTree = "<group>";
+		};
+		9CE5DF691E474189001A7E4E /* DocumentDownloadLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9CE5DF6A1E474189001A7E4E /* CacheManager.swift */,
+				9CE5DF6B1E474189001A7E4E /* Constants.swift */,
+				9CE5DF6C1E474189001A7E4E /* DocumentDownload.swift */,
+				9CE5DF6D1E474189001A7E4E /* DownloadManager.swift */,
+				9CE5DF6F1E474189001A7E4E /* FileClient.swift */,
+				9CE5DF891E47B0FA001A7E4E /* UIImageView+Cache.swift */,
+				9CE5DF8B1E47B1CB001A7E4E /* UIWebView+Cache.swift */,
+				9C98559A1E49B21500704589 /* String+MD5.swift */,
+			);
+			path = DocumentDownloadLibrary;
+			sourceTree = "<group>";
+		};
+		9CE5DF701E474189001A7E4E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9CE5DF711E474189001A7E4E /* NetworkingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9CE5DF791E4741E3001A7E4E /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9CE5DF7A1E4741E3001A7E4E /* Cells */,
+				9CE5DF7C1E4741E3001A7E4E /* ListViewController.swift */,
+				9CE5DF7D1E4741E3001A7E4E /* Model */,
+			);
+			path = ListScreen;
+			sourceTree = "<group>";
+		};
+		9CE5DF7A1E4741E3001A7E4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9CE5DF7B1E4741E3001A7E4E /* UserCustomCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9CE5DF7D1E4741E3001A7E4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CE5DF801E4741F7001A7E4E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9855A01E49B4AE00704589 /* DocumentDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9855A81E49B4AE00704589 /* Build configuration list for PBXNativeTarget "DocumentDownloaderTests" */;
+			buildPhases = (
+				9C98559D1E49B4AE00704589 /* Sources */,
+				9C98559E1E49B4AE00704589 /* Frameworks */,
+				9C98559F1E49B4AE00704589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9855A71E49B4AE00704589 /* PBXTargetDependency */,
+			);
+			name = DocumentDownloaderTests;
+			productName = DocumentDownloaderTests;
+			productReference = 9C9855A11E49B4AE00704589 /* DocumentDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CAEC12B1E45A7B3002C8248 /* DocumentDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CAEC1411E45A7B3002C8248 /* Build configuration list for PBXNativeTarget "DocumentDownloader" */;
+			buildPhases = (
+				9CAEC1281E45A7B3002C8248 /* Sources */,
+				9CAEC1291E45A7B3002C8248 /* Frameworks */,
+				9CAEC12A1E45A7B3002C8248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentDownloader;
+			productName = DocumentDownloader;
+			productReference = 9CAEC12C1E45A7B3002C8248 /* DocumentDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CAEC1241E45A7B3002C8248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = rahul;
+				TargetAttributes = {
+					9C9855A01E49B4AE00704589 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CAEC12B1E45A7B3002C8248;
+					};
+					9CAEC12B1E45A7B3002C8248 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QDY5RG3DH3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9CAEC1271E45A7B3002C8248 /* Build configuration list for PBXProject "DocumentDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CAEC1231E45A7B3002C8248;
+			productRefGroup = 9CAEC12D1E45A7B3002C8248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CAEC12B1E45A7B3002C8248 /* DocumentDownloader */,
+				9C9855A01E49B4AE00704589 /* DocumentDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C98559F1E49B4AE00704589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAEC12A1E45A7B3002C8248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAEC13D1E45A7B3002C8248 /* LaunchScreen.storyboard in Resources */,
+				9CAEC13A1E45A7B3002C8248 /* Assets.xcassets in Resources */,
+				9CAEC1351E45A7B3002C8248 /* Main.storyboard in Resources */,
+				9C9855BB1E49D4B800704589 /* testImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C98559D1E49B4AE00704589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9855B11E49C70400704589 /* CacheManagerTest.swift in Sources */,
+				9C9855AF1E49C6D700704589 /* FileClientTest.swift in Sources */,
+				9C9855A41E49B4AE00704589 /* DocumentManagerTests.swift in Sources */,
+				9C9855AD1E49B6F100704589 /* TestConstants.swift in Sources */,
+				9C9855B51E49CA8F00704589 /* UserTest.swift in Sources */,
+				9C9855B71E49CE1B00704589 /* StringMd5Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAEC1281E45A7B3002C8248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAEC1381E45A7B3002C8248 /* DocumentDownloader.xcdatamodeld in Sources */,
+				9CE5DF721E474189001A7E4E /* CacheManager.swift in Sources */,
+				9CE5DF741E474189001A7E4E /* DocumentDownload.swift in Sources */,
+				9CE5DF751E474189001A7E4E /* DownloadManager.swift in Sources */,
+				9CAEC1301E45A7B3002C8248 /* AppDelegate.swift in Sources */,
+				9CE5DF8A1E47B0FA001A7E4E /* UIImageView+Cache.swift in Sources */,
+				9CE5DF8C1E47B1CB001A7E4E /* UIWebView+Cache.swift in Sources */,
+				9CE5DF7F1E4741E3001A7E4E /* ListViewController.swift in Sources */,
+				9CE5DF781E474189001A7E4E /* NetworkingManager.swift in Sources */,
+				9C98559B1E49B21500704589 /* String+MD5.swift in Sources */,
+				9CE5DF811E4741F7001A7E4E /* User.swift in Sources */,
+				9CE5DF771E474189001A7E4E /* FileClient.swift in Sources */,
+				9CE5DF731E474189001A7E4E /* Constants.swift in Sources */,
+				9CE5DF7E1E4741E3001A7E4E /* UserCustomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9855A71E49B4AE00704589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CAEC12B1E45A7B3002C8248 /* DocumentDownloader */;
+			targetProxy = 9C9855A61E49B4AE00704589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CAEC1331E45A7B3002C8248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CAEC1341E45A7B3002C8248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CAEC13B1E45A7B3002C8248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CAEC13C1E45A7B3002C8248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9855A91E49B4AE00704589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DocumentDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rahul.DocumentDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentDownloader.app/DocumentDownloader";
+			};
+			name = Debug;
+		};
+		9C9855AA1E49B4AE00704589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DocumentDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rahul.DocumentDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentDownloader.app/DocumentDownloader";
+			};
+			name = Release;
+		};
+		9CAEC13F1E45A7B3002C8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CAEC1401E45A7B3002C8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CAEC1421E45A7B3002C8248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDY5RG3DH3;
+				INFOPLIST_FILE = DocumentDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rahul.DocumentDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/DocumentDownloader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CAEC1431E45A7B3002C8248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QDY5RG3DH3;
+				INFOPLIST_FILE = DocumentDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rahul.DocumentDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/DocumentDownloader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9855A81E49B4AE00704589 /* Build configuration list for PBXNativeTarget "DocumentDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9855A91E49B4AE00704589 /* Debug */,
+				9C9855AA1E49B4AE00704589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CAEC1271E45A7B3002C8248 /* Build configuration list for PBXProject "DocumentDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAEC13F1E45A7B3002C8248 /* Debug */,
+				9CAEC1401E45A7B3002C8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CAEC1411E45A7B3002C8248 /* Build configuration list for PBXNativeTarget "DocumentDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CAEC1421E45A7B3002C8248 /* Debug */,
+				9CAEC1431E45A7B3002C8248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CAEC1361E45A7B3002C8248 /* DocumentDownloader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CAEC1371E45A7B3002C8248 /* DocumentDownloader.xcdatamodel */,
+			);
+			currentVersion = 9CAEC1371E45A7B3002C8248 /* DocumentDownloader.xcdatamodel */;
+			path = DocumentDownloader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9CAEC1241E45A7B3002C8248 /* Project object */;
+}
